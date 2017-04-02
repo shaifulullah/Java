@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Button layoutX="79.0" layoutY="218.0" mnemonicParsing="false" onAction="#login" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="LoginStatus" layoutX="4.0" layoutY="49.0" prefHeight="27.0" prefWidth="293.0" text="Login Status" textFill="#dd2424">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="Password" layoutX="19.0" layoutY="150.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="UserName" layoutX="19.0" layoutY="100.0" promptText="User Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+	      <image>
+	     	 <Image url="img/image.png" />
+	      </image>
+      </ImageView>
+   </children>
+</AnchorPane>

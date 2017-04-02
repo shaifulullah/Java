@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#rand_generator{
+	-fx-font-size: 20px;
+	
+	-fx-text-fill:blue ;
+}
+
+#myMessage{
+	-fx-font-size:22px;
+	-fx-background-color: aqua ;
+}
+
+.root{
+	-fx-background-color: gray;
+}
